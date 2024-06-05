@@ -1,20 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package exercicio04;
 
-/**
- *
- * @author theofilo_passos
- */
 public class Exercicio04 {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        Scanner leia = new Scanner(System.in);
+        
+        
+        System.out.printIn("Informe a temperatura em ºC: ");
+        double celsius = s.nextDouble();
+        
+        double fahrenheit = (1.8 * celsius) + 32;
+        double kelvin = celsius + 273.15;
+        
+        System.out.println("Celsius: " + celsius + "ºC")
+        System.out.println("fahrenheit: " + fahrenheit + "ºF")
     }
     
 }
